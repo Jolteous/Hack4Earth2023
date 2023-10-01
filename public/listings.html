@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Listings - Community Gardens Network</title>
+    <!-- Link to your CSS stylesheets goes here -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Garden Listings</a></li>
+        </ul>
+    </nav>
+    <!-- Header Section (You can reuse the header from the homepage) -->
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Community Garden Listings</h2>
+            <!-- List of garden listings with details and links to individual garden profiles -->
+            <div id="listingFormPopup" class="popup">
+                <form id="listingForm">
+                    <!-- Input fields for garden listing details -->
+                    <label for="gardenName">Garden Name:</label>
+                    <input type="text" id="gardenName" required><br>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" required><br>
+                    <!-- Add more input fields as needed -->
+            
+                    <!-- Submit button for adding the listing -->
+                    <button type="submit">Add Listing</button>
+                </form>
+            </div>
+            <div id="listingsContainer">
+
+            </div>
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+
+</body>
+</html>
